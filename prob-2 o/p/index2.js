@@ -34,7 +34,7 @@ do{
     var ch1=prompt("Do you want to continue ? press y else press n")
 }while(ch1==='y')
 if(tot>500){
-    var dis=tot*0.1;
+    var dis=tot*0.9;
     tot=tot-dis;
 }
 console.log("Total Amount: ",tot);
